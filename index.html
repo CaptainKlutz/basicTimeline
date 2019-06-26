@@ -10,7 +10,7 @@
     <!-- 2 -->
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 
-    <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+    <div id='timeline-embed1' style="width: 100%; height: 600px"></div>
 
     <!-- 3 -->
     <script type="text/javascript">
@@ -27,7 +27,7 @@
     <!-- 2 -->
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 
-    <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+    <div id='timeline-embed2' style="width: 100%; height: 600px"></div>
 
     <!-- 3 -->
       <script type="text/javascript">
@@ -41,5 +41,23 @@
         timeline = new TL.Timeline('timeline-embed',
           'https://docs.google.com/spreadsheets/d/1cWqQBZCkX9GpzFtxCWHoqFXCHg-ylTVUWlnrdYMzKUI/pubhtml');
       </script>
+    <div id="timeline-embed3"></div>
+    <!-- JavaScript-->
+    <script src="/build/js/timeline.js"></script>
+    <script>
+      var timeline = new TL.Timeline('timeline', 'media_types.json', {
+      	ga_property_id: "UA-27829802-4",
+      	is_embed:true,
+      	language: "en",
+      	debug: true
+      });
+/*
+      var timeline = new TL.Timeline('timeline', '1OQCXIQoeMUbeIE3KdKijQhFvgit37m6Sy6S07gAE6fU', {
+      	ga_property_id: "UA-27829802-4",
+      	debug:true,
+      	is_embed:true
+      });
+    */
+    </script>
   </body>
 </html>
