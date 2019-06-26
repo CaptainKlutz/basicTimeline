@@ -15,7 +15,7 @@
     "events": [
         {
             "background": {
-                "color": "lightgrey",
+                "color": "darkgrey",
                 "opacity": 50,
                 "url": null
             },
@@ -40,7 +40,7 @@
         },
 	{
             "background": {
-                "color": "lightgrey",
+                "color": "darkblue",
                 "opacity": 50,
                 "url": null
             },
@@ -65,7 +65,7 @@
         },
 	{
             "background": {
-                "color": "lightgrey",
+                "color": "darkred",
                 "opacity": 50,
                 "url": null
             },
