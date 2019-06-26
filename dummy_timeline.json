@@ -1,0 +1,42 @@
+{
+    "scale": "human",
+	"title": {
+		        "media": {
+		            "caption": "",
+		            "credit": "",
+		            "url": "",
+		            "thumb": 	""
+		        },
+	            "text": {
+	                "headline": "Test Timeline",
+	                "text": "This is a test Timeline with a few dummy events."
+	            }
+	    },
+    "events": [
+        {
+            "background": {
+                "color": "lightgrey",
+                "opacity": 50,
+                "url": null
+            },
+            "start_date": {
+                "year":			"2015",
+                "month":		"4",
+                "day": 			"19",
+                "hour": 		"",
+                "minute": 		"",
+                "second": 		"",
+                "millisecond": 	"",
+                "thumbnail": 	"",
+                "format": 		""
+            },
+            "text": {
+                "headline": "Outbreak of Civil War",
+                "text": "The outbreak of the Yemen Civil War"
+            },
+            "background": {
+                "url": "http://2.bp.blogspot.com/-dxJbW0CG8Zs/TmkoMA5-cPI/AAAAAAAAAqw/fQpsz9GpFdo/s1600/voyage-dans-la-lune-1902-02-g.jpg"
+            }
+        }
+    ]
+}
